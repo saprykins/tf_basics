@@ -6,6 +6,8 @@ Sources:
 ```
 terraform version
 ```
+
+```
 az version
 ```
 ```
