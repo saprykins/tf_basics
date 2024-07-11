@@ -1,65 +1,22 @@
-source: https://www.youtube.com/watch?v=gyZdCzdkSY4  
-source to follow: https://www.youtube.com/watch?v=V53AHWun17s&pp=ygUSdGVycmFmb3JtIGluIGF6dXJl  
+Sources:  
+[Short](https://www.youtube.com/watch?v=gyZdCzdkSY4)
+[Useful beginning](https://www.youtube.com/watch?v=V53AHWun17s&pp=ygUSdGVycmFmb3JtIGluIGF6dXJl)
+
+# Introductions
 ```
 terraform version
+```
 az version
+```
+```
 az upgrade
+```
+```
 az login
 ```
 
-main.tf
-```
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "~> 2.31.1" # Specify the required Azure provider version constraint
-    }
-    # Add more providers with their respective version constraints if needed
-  }
-}
 
-# Configure the Microsoft Azure Provider
-provider "azurerm" {
-  features {}
-}
-
-resource "azurerm_resource_group" "rg" {
-  name                = "like-and-subscribe"
-  location            = "southcentralus"
-  tags = {
-    environment = "dev"
-    source = "Terraform"
-  }
-}
-```
-```
-tf init
-```
-Format  
-```
-tf fmt
-```
-To avoid that sth is lacking
-```
-tf validate
-```
-```
-tf plan
-```
-```
-tf apply
-```
-reply yes
-```
-tf destroy
-```
-
-if change in file
-tf fmt
-tf apply
-
-First connection (authentication from Azure Cloud Shell) requires the following: 
+# First connection (authentication from Azure Cloud Shell):  
 ```
 az upgrade
 ```
@@ -68,4 +25,36 @@ az account clear
 ```
 ```
 az login
+```
+
+# Upload a file main.tf
+
+# Deployment steps
+```
+terraform init
+```
+Format  
+```
+terraform fmt
+```
+To avoid that sth is lacking
+```
+terraform validate
+```
+```
+terraform plan
+```
+```
+terraform apply
+```
+reply yes
+```
+terraform destroy
+```
+# After .tf file changes
+```
+terraform fmt
+```
+```
+terraform apply
 ```
