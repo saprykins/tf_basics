@@ -24,7 +24,7 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   name                = "like-and-subscribe"
   location            = southcentralus
-  tag = {
+  tags = {
     environment = "dev"
     source = "Terraform"
   }
