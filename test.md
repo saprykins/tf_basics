@@ -55,3 +55,12 @@ tf destroy
 if change in file
 tf fmt
 tf apply
+
+First connection (authentication from Azure Cloud Shell) requires the following: 
+```
+az upgrade
+```
+```
+az account clear
+```
+```az login```
