@@ -30,22 +30,27 @@ resource "azurerm_resource_group" "rg" {
   }
 }
 ```
-
+```
 tf init
-
+```
 Format  
+```
 tf fmt
-
+```
 To avoid that sth is lacking
+```
 tf validate
-
+```
+```
 tf plan
-
+```
+```
 tf apply
+```
 reply yes
-
+```
 tf destroy
-
+```
 
 if change in file
 tf fmt
