@@ -33,6 +33,7 @@ az login
 # Upload a file main.tf
 
 # Deployment steps
+Check provider related data (checks if provider name is correct, exmaple is azurerm)  
 ```
 terraform init
 ```
