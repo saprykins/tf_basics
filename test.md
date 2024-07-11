@@ -1,8 +1,11 @@
 source: https://www.youtube.com/watch?v=gyZdCzdkSY4  
+source to follow: https://www.youtube.com/watch?v=V53AHWun17s&pp=ygUSdGVycmFmb3JtIGluIGF6dXJl  
+```
 terraform version
 az version
 az upgrade
 az login
+```
 
 main.tf
 ```
