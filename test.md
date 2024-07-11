@@ -63,4 +63,6 @@ az upgrade
 ```
 az account clear
 ```
-```az login```
+```
+az login
+```
