@@ -1,7 +1,7 @@
 Sources:  
-[Official doc](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)
-[Short](https://www.youtube.com/watch?v=gyZdCzdkSY4)
-[Useful beginning](https://www.youtube.com/watch?v=V53AHWun17s&pp=ygUSdGVycmFmb3JtIGluIGF6dXJl)
+[Official doc](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/azure_cli)  
+[Short](https://www.youtube.com/watch?v=gyZdCzdkSY4)  
+[Useful beginning](https://www.youtube.com/watch?v=V53AHWun17s&pp=ygUSdGVycmFmb3JtIGluIGF6dXJl)  
 
 # Introductions
 ```
